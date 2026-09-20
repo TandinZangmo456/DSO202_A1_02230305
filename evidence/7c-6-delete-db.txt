@@ -1,0 +1,1 @@
+pod "db-67977cdc6c-qjxgt" deleted from dso202-assignment-01 namespace

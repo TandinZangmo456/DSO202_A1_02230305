@@ -1,0 +1,15 @@
+{"status":"ok","db":"connected"}Server:		10.96.0.10
+Address:	10.96.0.10:53
+
+** server can't find backend-svc.cluster.local: NXDOMAIN
+
+** server can't find backend-svc.cluster.local: NXDOMAIN
+
+Name:	backend-svc.dso202-assignment-01.svc.cluster.local
+Address: 10.96.46.24
+
+** server can't find backend-svc.svc.cluster.local: NXDOMAIN
+
+** server can't find backend-svc.svc.cluster.local: NXDOMAIN
+
+

@@ -1,0 +1,15 @@
+NAME                        READY   STATUS    RESTARTS   AGE
+backend-59d57b4c77-drd7h    1/1     Running   0          10h
+db-67977cdc6c-qjxgt         1/1     Running   0          10h
+frontend-5bbc4ff6df-t754b   1/1     Running   0          17m
+backend-59d57b4c77-drd7h    1/1     Terminating   0          10h
+backend-59d57b4c77-drd7h    1/1     Terminating   0          10h
+backend-59d57b4c77-x7nvf    0/1     Pending       0          0s
+backend-59d57b4c77-x7nvf    0/1     Pending       0          0s
+backend-59d57b4c77-x7nvf    0/1     ContainerCreating   0          1s
+backend-59d57b4c77-x7nvf    0/1     ContainerCreating   0          1s
+backend-59d57b4c77-x7nvf    1/1     Running             0          1s
+backend-59d57b4c77-drd7h    0/1     Error               0          10h
+backend-59d57b4c77-drd7h    0/1     Error               0          10h
+backend-59d57b4c77-drd7h    0/1     Error               0          10h
+backend-59d57b4c77-drd7h    0/1     Error               0          10h

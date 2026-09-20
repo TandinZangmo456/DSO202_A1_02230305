@@ -1,0 +1,2 @@
+NAME     STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+db-pvc   Bound    pvc-c123cdf6-24cf-4730-9ae6-d1dff0e3f648   1Gi        RWO            standard       <unset>                 10h

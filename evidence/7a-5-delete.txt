@@ -1,0 +1,7 @@
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Date: Sun, 20 Sep 2026 13:41:08 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

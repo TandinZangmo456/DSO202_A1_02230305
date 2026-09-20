@@ -1,0 +1,1 @@
+pod "backend-59d57b4c77-drd7h" deleted from dso202-assignment-01 namespace

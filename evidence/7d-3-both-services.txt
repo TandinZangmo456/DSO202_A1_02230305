@@ -1,0 +1,5 @@
+NAME                     TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE   LABELS
+backend-svc              ClusterIP   10.96.46.24     <none>        8080/TCP         11h   app.kubernetes.io/name=backend,app.kubernetes.io/part-of=task-tracker,tier=backend
+backend-svc-imperative   ClusterIP   10.96.190.101   <none>        8080/TCP         0s    app.kubernetes.io/name=backend,app.kubernetes.io/part-of=task-tracker,tier=backend
+db-svc                   ClusterIP   None            <none>        5432/TCP         11h   app.kubernetes.io/name=db,app.kubernetes.io/part-of=task-tracker,tier=database
+frontend-svc             NodePort    10.96.67.228    <none>        8080:30080/TCP   10h   app.kubernetes.io/name=frontend,app.kubernetes.io/part-of=task-tracker,tier=frontend

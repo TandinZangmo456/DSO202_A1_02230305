@@ -1,0 +1,30 @@
+4,7c4
+<   annotations:
+<     kubectl.kubernetes.io/last-applied-configuration: |
+<       {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"labels":{"app.kubernetes.io/name":"backend","app.kubernetes.io/part-of":"task-tracker","tier":"backend"},"name":"backend-svc","namespace":"dso202-assignment-01"},"spec":{"ports":[{"name":"http","port":8080,"targetPort":8080}],"selector":{"app.kubernetes.io/name":"backend","tier":"backend"},"type":"ClusterIP"}}
+<   creationTimestamp: "2026-09-20T03:26:32Z"
+---
+>   creationTimestamp: "2026-09-20T14:30:36Z"
+12c9
+<   name: backend-svc
+---
+>   name: backend-svc-imperative
+14,15c11,12
+<   resourceVersion: "3753"
+<   uid: 3a1cd28e-5e7f-4e35-b841-34ab56f40507
+---
+>   resourceVersion: "14449"
+>   uid: 2d85676e-f0f1-4318-a27f-e50e281e19ab
+17c14
+<   clusterIP: 10.96.46.24
+---
+>   clusterIP: 10.96.190.101
+19c16
+<   - 10.96.46.24
+---
+>   - 10.96.190.101
+25,26c22
+<   - name: http
+<     port: 8080
+---
+>   - port: 8080

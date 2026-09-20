@@ -1,0 +1,4 @@
+NAME                        READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+backend-59d57b4c77-x7nvf    1/1     Running   0          56s   10.244.0.12   dso202-control-plane   <none>           <none>
+db-67977cdc6c-qjxgt         1/1     Running   0          10h   10.244.0.7    dso202-control-plane   <none>           <none>
+frontend-5bbc4ff6df-t754b   1/1     Running   0          18m   10.244.0.11   dso202-control-plane   <none>           <none>

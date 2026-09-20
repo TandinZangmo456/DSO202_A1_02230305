@@ -1,0 +1,9 @@
+NAME                       AGE
+serviceaccount/default     12h
+serviceaccount/viewer-sa   2m9s
+
+NAME                                              CREATED AT
+role.rbac.authorization.k8s.io/namespace-viewer   2026-09-20T16:09:18Z
+
+NAME                                                      ROLE                    AGE
+rolebinding.rbac.authorization.k8s.io/viewer-sa-binding   Role/namespace-viewer   2m9s

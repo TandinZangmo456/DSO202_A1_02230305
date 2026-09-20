@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: viewer-sa
+  namespace: dso202-assignment-01
+  labels:
+    app.kubernetes.io/part-of: task-tracker
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: namespace-viewer
+  namespace: dso202-assignment-01
+  labels:
+    app.kubernetes.io/part-of: task-tracker
+rules:
+  # core API group: read-only verbs only
+  - apiGroups: [""]
+    resources: ["pods", "pods/log", "services", "endpoints", "configmaps", "persistentvolumeclaims", "events"]
+    verbs: ["get", "list", "watch"]
+  # apps API group
+  - apiGroups: ["apps"]
+    resources: ["deployments", "replicasets"]
+    verbs: ["get", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: viewer-sa-binding
+  namespace: dso202-assignment-01
+  labels:
+    app.kubernetes.io/part-of: task-tracker
+subjects:
+  - kind: ServiceAccount
+    name: viewer-sa
+    namespace: dso202-assignment-01
+roleRef:
+  kind: Role
+  name: namespace-viewer
+  apiGroup: rbac.authorization.k8s.io

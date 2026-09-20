@@ -1,0 +1,10 @@
+--- should be yes ---
+yes
+yes
+yes
+--- should be no ---
+no
+no
+no
+no
+no

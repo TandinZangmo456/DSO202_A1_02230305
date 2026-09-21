@@ -145,7 +145,7 @@ The declarative approach keeps the full desired state in a YAML file that is rev
 
 ![imagetools inspect: only linux/arm64](evidence/screenshots/23-imagetools-arm64-only.png)
 
-As a workaround I built the unmodified tutor source locally with the same image names and tag 1.0 and loaded the images into the kind node with `kind load docker-image`. The manifests still use `sarojsanyasi/dso202-*:1.0` and imagePullPolicy IfNotPresent. No source file was changed. Tutor informed: **[EDIT: yes on <date>, or not yet]**.
+As a workaround I built the unmodified tutor source locally with the same image names and tag 1.0 and loaded the images into the kind node with `kind load docker-image`. The manifests still use `sarojsanyasi/dso202-*:1.0` and imagePullPolicy IfNotPresent. No source file was changed. Tutor informed: yes, advised by the tutor to build for Linux compatibility.
 
 ![Local build and kind load](evidence/screenshots/24-local-build-and-kind-load.png)
 
